@@ -12,7 +12,7 @@ elseif exists("b:current_syntax")
 endif
 
 if !exists("main_syntax")
-  let main_syntax = 'html'
+  let main_syntax = 'rack'
 endif
 
 if version < 600
